@@ -30,13 +30,15 @@ Mini_Assessment1/
 
 ## 🚀 How to Run
 
-1. **Clone this repository**
+1. Fork the repo
+   
+2. Clone the repo
    git clone https://github.com/TumeloNtsilo/Mini_Assessment1.git
    cd Mini_Assessment1
 
-2. Run the main file
+3. Run the main file
    python3 main.py
 
-3. Run all tests
-   python3 -m unittest test_assessment1.py
+4. Run all tests
+   python3 -m unittest test_assessment2.py
 
