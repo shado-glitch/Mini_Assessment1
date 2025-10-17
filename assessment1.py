@@ -15,19 +15,13 @@ def square(number):
     Returns:
         int: The square of the input number.
     """
+    square = (number)**2
+    return square
     pass
 
 
 def even(n):
-    """
-    Checks whether a number is even.
-
-    Parameters:
-        n (int): The number to check.
-
-    Returns:
-        bool: True if n is even, False otherwise.
-    """
+    
     if n % 2 == 0 :
         return True
     else:
@@ -58,16 +52,13 @@ def list_of_even_numbers(numbers):
 
 
 def sum_of_odd_numbers(numbers):
-    """
-    Calculates the sum of all odd numbers in a list.
+    number_list = list(numbers)
 
-    Parameters:
-        numbers (list of int): A list of integers.
+    odd_numbers = []
+    for i in number_list:
+        if i % 2 != 0:
+            odd_numbers.append(i)
+    print(odd_numbers)  
+    return sum(odd_numbers)
 
-    Returns:
-        int: The sum of all odd numbers in the list.
-    """
     pass
-
-
-print(list_of_even_numbers(20))
