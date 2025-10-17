@@ -42,15 +42,18 @@ def sum_of_list(numbers):
 
 
 def list_of_even_numbers(numbers):
-    """
-    Returns a list of even numbers from 1 up to (but not including) the given number.
+    
+    numbers_list = []
+    even_numbers = []
+    for i in range(numbers):
+        numbers_list.append(i)
+    for i in numbers_list[1:]:
+        if i % 2 == 0:
+            even_numbers.append(i)
 
-    Parameters:
-        numbers (int): The upper limit of the range to check for even numbers.
+    
+    return even_numbers
 
-    Returns:
-        list of int: A list containing all even numbers less than the given number.
-    """
     pass
 
 
@@ -65,3 +68,6 @@ def sum_of_odd_numbers(numbers):
         int: The sum of all odd numbers in the list.
     """
     pass
+
+
+print(list_of_even_numbers(20))
