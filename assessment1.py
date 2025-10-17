@@ -1,14 +1,7 @@
 def product(num1, num2):
-    """
-    Returns the product of two numbers.
-
-    Parameters:
-        num1 (int): The first number.
-        num2 (int): The second number.
-
-    Returns:
-        int: The result of multiplying num1 by num2.
-    """
+    
+    product = num1*num2
+    return product
     pass
 
 

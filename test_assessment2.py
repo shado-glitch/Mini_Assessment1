@@ -40,4 +40,6 @@ class TestAssessment(unittest.TestCase):
         self.assertNotEqual(66, assessment1.sum_of_odd_numbers([3,4,9,22,100,1,6,17,13]))
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main() 
+
+    
