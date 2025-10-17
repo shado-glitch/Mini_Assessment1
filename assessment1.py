@@ -28,19 +28,16 @@ def even(n):
     Returns:
         bool: True if n is even, False otherwise.
     """
+    if n % 2 == 0 :
+        return True
+    else:
+        return False
     pass
 
 
 def sum_of_list(numbers):
-    """
-    Calculates the sum of all elements in a list.
-
-    Parameters:
-        numbers (list of int): A list of numbers.
-
-    Returns:
-        int: The total sum of all numbers in the list.
-    """
+    sum_of_list=sum(numbers)
+    return sum_of_list
     pass
 
 
