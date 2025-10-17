@@ -6,15 +6,7 @@ def product(num1, num2):
 
 
 def square(number):
-    """
-    Returns the square of a number.
-
-    Parameters:
-        number (int): The number to be squared.
-
-    Returns:
-        int: The square of the input number.
-    """
+    
     square = (number)**2
     return square
     pass
